@@ -473,7 +473,8 @@
         <div class="modal-title-box">
           <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         </div>
-        <div class="modal-input-box">
+        <form action="#" class="form">
+          <div class="modal-input-box">
           <div class="modal-cont">
          <label for="user-name">Ім'я</label>
         <input type="text" name="user-name" class="modal-input">
@@ -497,16 +498,16 @@
         </div>
         <div class="modal-fields">
         <label for="user-text">Коментар</label>
-        <textarea name="user-text" id="user-text" class="modal-text">Введіть текст</textarea>
+        <textarea name="user-text" id="user-text" class="modal-text" placeholder="Введіть текст "></textarea>
         </div>
 
         </div>
         <div class="modal-check-box">
-         <input type="checkbox" name="privacy" class="modal-check visually-hidden">
-        <label for="privacy" class="check-text" value="true" checked="checked">
+          <label for="privacy" class="check-text">
+          <input type="checkbox" name="privacy" id="privacy" class="modal-check visually-hidden" value="checkbox"/>
           <span class="check-text-span">
             <svg class="check-icon" width="16" height="15">
-              <use href="./images/icons.svg#icon-check"
+              <use href="./images/icons.svg#icon-check"></use>
             </svg>
           </span>
           Погоджуюся з розсилкою та приймаю <a href=""> <span class="checkbox-link">Умови договору</span></a></label>
@@ -515,6 +516,8 @@
         <div class="modal-button-box">
           <button type="submit" class="modal-button">Відправити</button>
           </div>
+        </form>
+      
       
       
       </div>

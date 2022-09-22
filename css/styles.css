@@ -252,7 +252,7 @@ img {
   margin-top: 20px;
 }
 
-.check-text .check-text-span {
+.check-text-span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,7 +264,7 @@ img {
   fill: transparent;
 }
 
-.modal-check:checked + .check-text > span {
+.modal-check:checked + .check-text-span {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   fill: var(--header-bg-color);
@@ -1335,7 +1335,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2f303a;
-  padding-left: 2px;
+  padding-left: 5px;
 }
 
 .mailing-list-input:hover {
